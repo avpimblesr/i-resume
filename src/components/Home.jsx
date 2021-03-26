@@ -1,10 +1,10 @@
-import React from 'react'
+import Container from '@material-ui/core/Container'
 
 const Home = () => {
     return (
-        <div>
+        <Container className='home'>
           <h1>Home</h1>  
-        </div>
+        </Container>
     )
 }
 
